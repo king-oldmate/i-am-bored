@@ -2,7 +2,7 @@ document.querySelector('button').addEventListener('click', randomActivity)
 
 function randomActivity(){
     console.log('hi')
-    const url = "http://www.boredapi.com/api/activity/"
+    const url = "https://www.boredapi.com/api/activity/"
     fetch(url)
         .then(res => res.json())
         .then(data => {
