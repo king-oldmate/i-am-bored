@@ -13,39 +13,39 @@ function randomActivity(){
             switch(type){
                 case 'education':
                     emoji.innerText = '📙'
-                    emoji.setAttribute("alt", "education")
+                    emoji.setAttribute("title", "education")
                     break
                 case 'recreational':
                     emoji.innerText = '🎭'
-                    emoji.setAttribute("alt", "recreational")
+                    emoji.setAttribute("title", "recreational")
                     break
                 case 'social':
                     emoji.innerText = '👥'
-                    emoji.setAttribute("alt", "social")
+                    emoji.setAttribute("title", "social")
                     break
                 case 'diy':
                     emoji.innerText = '🔨'
-                    emoji.setAttribute("alt", "DIY")
+                    emoji.setAttribute("title", "DIY")
                     break
                 case 'charity':
                     emoji.innerText = '♥️'
-                    emoji.setAttribute("alt", "charity")
+                    emoji.setAttribute("title", "charity")
                     break
                 case 'cooking':
                     emoji.innerText = '👨‍🍳️'
-                    emoji.setAttribute("alt", "cooking")
+                    emoji.setAttribute("title", "cooking")
                     break
                 case 'relaxation':
                     emoji.innerText = '😌'
-                    emoji.setAttribute("alt", "relaxation")
+                    emoji.setAttribute("title", "relaxation")
                     break
                 case 'music':
                     emoji.innerText = '🎵'
-                    emoji.setAttribute("alt", "music")
+                    emoji.setAttribute("title", "music")
                     break
                 case 'busywork':
                     emoji.innerText = '🐝'
-                    emoji.setAttribute("alt", "busywork")
+                    emoji.setAttribute("title", "busywork")
                     break
             }
         })
