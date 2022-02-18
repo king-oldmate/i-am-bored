@@ -1,8 +1,10 @@
 # i-am-bored
 
-Simple page I made for #100Devs using <www.boredapi.com>. 
+Simple page I made for #100Devs using www.boredapi.com. 
 
-Use it [here](https://king-oldmate.github.io/i-am-bored/)
+![Preview](preview.gif)
+
+Try it out [here](https://king-oldmate.github.io/i-am-bored/)
 
 ## How it's made:
 
