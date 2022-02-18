@@ -63,7 +63,40 @@ async function randomActivity2(){
             default:
                 partipants.innerText = '🧍‍♂️🧍‍♀️🧍➕'
         }
-        
+        //Display cost
+        const price = data.price
+        const cost = document.getElementById('cost')
+        switch(price){
+            case 0:
+                cost.innerText = '🈚'
+                cost.setAttribute("title", "Free!")
+                break
+            case 0.1:
+            case 0.2:
+                cost.innerText = '💲'
+                cost.removeAttribute("title")
+                break
+            case 0.3:
+            case 0.4:
+                cost.innerText = '💲💲'
+                cost.removeAttribute("title")
+                break 
+            case 0.5:
+            case 0.6:
+                cost.innerText = '💲💲💲'
+                cost.removeAttribute("title")
+                break
+            case 0.7:
+            case 0.8:
+                cost.innerText = '💲💲💲💲'
+                cost.removeAttribute("title")
+                break 
+            case 0.9:
+            case 1.0:
+                cost.innerText = '💲💲💲💲💲'
+                cost.removeAttribute("title")
+                break  
+        }
     } catch(err) {
         console.log(err)
     }
