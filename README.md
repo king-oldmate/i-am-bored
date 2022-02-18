@@ -21,3 +21,5 @@ I'm not pleased with the `try..catch` - something about it just feels off to me,
 ## Lessons learned: 
 
 I wish there were more *Eureka* moments here but with a great API and a simple implementation I suppose what I've learnt is that making little neat things like this is fun. 
+
+Oh and I learned a bit more about Markdown in writing this up. 
